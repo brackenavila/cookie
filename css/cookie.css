@@ -1,0 +1,72 @@
+body {
+  background: #000;
+  color: #d3d3d3;
+  font-size: 2em;
+  overflow: hidden;
+  margin: 0;
+}
+body >*,
+body #cks {
+  transition: all 0.4s;
+  position: absolute;
+}
+body .left-panel {
+  background: linear-gradient(50deg, #000, #00008b, #00f, #000);
+  height: 100%;
+  overflow: auto;
+  width: 76%;
+}
+body .left-panel *:first-letter {
+  color: #1e90ff;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+body #cks {
+  background: linear-gradient(10deg, #000, #8b0000, #000);
+  height: 100%;
+  right: 0;
+  top: 0;
+  width: 20%;
+}
+body #cks legend {
+  font-family: verdana;
+  text-align: center;
+}
+body #cks button {
+  background: radial-gradient(#d3d3d3, #a9a9a9, #000);
+  font-size: 1.2em;
+  padding: 3%;
+  transition: all 0.2s;
+  width: 100%;
+}
+body #cks button:nth-of-type(odd) {
+  border-radius: 1em 0;
+}
+body #cks button:nth-of-type(even) {
+  border-radius: 0 1em;
+}
+body #cks button:hover {
+  background: radial-gradient(#f00, #8b0000, #000);
+  color: #a9a9a9;
+  border-radius: 1em;
+}
+.origin {
+  background: transparent !important;
+  color: transparent !important;
+}
+.target {
+  background: linear-gradient(#000, #008000, #000) !important;
+  color: #90ee90;
+}
+.hide {
+  right: -24% !important;
+}
+.ce {
+  background: linear-gradient(#000, #00008b, #00f, #000) !important;
+  color: #d3d3d3 !important;
+  border-radius: 10px !important;
+}
+.expand {
+  width: 100% !important;
+}

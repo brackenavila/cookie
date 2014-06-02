@@ -1,0 +1,56 @@
+body
+	background black
+	color lightgrey
+	font-size 2em
+	overflow hidden
+	margin 0
+	>*,#cks
+		transition all .4s
+		position absolute
+	.left-panel
+		background linear-gradient(50deg,black,darkblue,blue,black)
+		height 100%
+		overflow auto
+		width 76%
+		& *:first-letter
+			color dodgerblue
+			font-size 1.2em
+			font-weight bold
+			text-transform uppercase
+	#cks
+		background linear-gradient(10deg,black,darkred,black)
+		height 100%
+		right 0
+		top 0
+		width 20%
+		legend
+			font-family verdana
+			text-align center
+		button
+			background radial-gradient(lightgrey,darkgrey,black)
+			font-size 1.2em
+			padding 3%
+			transition all .2s
+			width 100%
+			&:nth-of-type(odd)
+				border-radius 1em 0
+			&:nth-of-type(even)
+				border-radius 0 1em
+			&:hover
+				background radial-gradient(red,darkred,black)
+				color darkgrey
+				border-radius 1em
+.origin
+	background transparent!important
+	color transparent!important
+.target
+	background linear-gradient(black,green,black)!important
+	color lightgreen
+.hide
+	right	-24%!important
+.ce
+	background linear-gradient(black,darkblue,blue,black)!important
+	color lightgray!important
+	border-radius 10px!important
+.expand
+	width 100%!important

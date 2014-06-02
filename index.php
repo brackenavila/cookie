@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<link rel=stylesheet href=css/cookie.css>
-		<script src=js/jquery-2.0.3.min.js></script>
+		<script src=../lbs/jquery-2.x.js></script>
 		<script src=js/cookie.js async=true></script>
 	</head>
 	<body id=b>
